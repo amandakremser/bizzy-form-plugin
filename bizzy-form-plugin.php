@@ -1,7 +1,7 @@
 <?php
 
 /**
-*Plugin Name: Bizzy Email Sign-up Form Creator
+*Plugin Name: Bizzy for WordPress
 *Plugin URI: http://www.bizzy.io
 *Description: A plugin to genrate sign up forms for Bizzy email lists.
 *Version:     0.1
@@ -13,3 +13,12 @@
 *Text Domain: my-toolset
 */
 
+function bizzy_email_forms_install() {
+  
+}
+register_activation_hook( __FILE__, 'bizzy_email_forms_install' );
+
+function bizzy_email_forms_deactivation() {
+  
+}
+register_deactivation_hook( __FILE__, 'bizzy_email_forms_deactivation' );
