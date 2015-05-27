@@ -1,0 +1,102 @@
+div.bizzy-form-box {
+  border: none;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #1AB2C0;
+  border-radius: 3px;
+}
+
+.bizzy-form-box h3 {
+  font-size: 1.288888889em;
+  line-height: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: 0.03em;
+}
+
+.bizzy-form-box p {
+  color: #C5E7EA;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  line-height: 1.3em;
+}
+
+.bizzy-form-box form {
+  margin-bottom: 0.4em;
+}
+
+.bizzy-form-box input[type="text"],
+.bizzy-form-box input[type="email"],
+.bizzy-form-box input[type="url"],
+.bizzy-form-box input[type="password"],
+.bizzy-form-box input[type="search"],
+.bizzy-form-box textarea {
+  color: #333;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 3px;
+  font-size: 1em;
+  line-height: 1.6em;
+  width: 50%;
+}
+.bizzy-form-box input[type="text"]:focus,
+.bizzy-form-box input[type="email"]:focus,
+.bizzy-form-box input[type="url"]:focus,
+.bizzy-form-box input[type="password"]:focus,
+.bizzy-form-box input[type="search"]:focus,
+.bizzy-form-box textarea:focus {
+  color: blue;
+}
+
+.bizzy-form-box input[type="text"],
+.bizzy-form-box input[type="email"],
+.bizzy-form-box input[type="url"],
+.bizzy-form-box input[type="password"],
+.bizzy-form-box input[type="search"] {
+  padding: .6em 1em .4em;
+}
+
+.bizzy-form-box textarea {
+  padding-left: 3px;
+  width: 100%;
+}
+
+.bizzy-form-box button,
+.bizzy-form-box input[type="button"],
+.bizzy-form-box input[type="reset"],
+.bizzy-form-box input[type="submit"] {
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  background: #0D7785;
+  box-shadow: none;
+  color: white;
+  font-size: 1em;
+  line-height: 1.6em;
+  padding: .6em 1.8em .4em;
+  text-shadow: none;
+}
+.bizzy-form-box button:hover,
+.bizzy-form-box input[type="button"]:hover,
+.bizzy-form-box input[type="reset"]:hover,
+.bizzy-form-box input[type="submit"]:hover {
+  box-shadow: none;
+}
+.bizzy-form-box button:active, .bizzy-form-box button:focus,
+.bizzy-form-box input[type="button"]:active,
+.bizzy-form-box input[type="button"]:focus,
+.bizzy-form-box input[type="reset"]:active,
+.bizzy-form-box input[type="reset"]:focus,
+.bizzy-form-box input[type="submit"]:active,
+.bizzy-form-box input[type="submit"]:focus {
+  box-shadow: none;
+}
