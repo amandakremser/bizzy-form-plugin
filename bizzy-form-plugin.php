@@ -13,6 +13,9 @@
 *Text Domain: my-toolset
 */
 
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+
+
 function bizzy_email_forms_install() {
   
 }
@@ -61,3 +64,5 @@ function bizzy_email_form_enqueue_styles() {
 		wp_enqueue_style( 'bizzy_form__styles', plugin_dir_url( __FILE__ ) . 'css/style.css' );
 	}
 add_action( 'init', 'bizzy_email_form_enqueue_styles' );
+
+require plugin_dir_path( __FILE__ ) . 'inc/bizzy-form-buttons.php';
