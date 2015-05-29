@@ -66,3 +66,5 @@ function bizzy_email_form_enqueue_styles() {
 add_action( 'init', 'bizzy_email_form_enqueue_styles' );
 
 require plugin_dir_path( __FILE__ ) . 'inc/bizzy-form-buttons.php';
+
+?>
